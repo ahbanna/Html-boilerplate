@@ -1,0 +1,25 @@
+/*Extra large Device (large desktops)*/
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/*LG Device (desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/*MD devcie (Tablets)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/*SM Device (Phone)*/
+@media (min-width: 576px) and (max-width:767px) {}
+
+/*Extra SM*/
+@media (max-width: 575px) {
+
+}
